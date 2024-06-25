@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
-import { NavLink, BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import UserDetail from './components/UserDetail';
 
 function App() {
