@@ -13,7 +13,7 @@ function UserDetail() {
             setUser(result)
         }
         getData()
-    }, [])
+    }, [param.id])
     return user ? (
         <div className='user-detail'>
             <NavLink to='/' className='home-link'>Назад</NavLink>
