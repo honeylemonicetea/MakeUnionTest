@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav__container">
+            <a href="#profile" class="nav__item">Задание 1</a>
+            <a href="#todo" class="nav__item">Задание 2</a>
+        </nav>
+    </header>
+    <main>
+        <section class="user-profile" id="profile">
+            <div class="user-profile__wrapper">
+                <div class="user-profile__top">
+                    <img src="https://randomuser.me/api/portraits/women/75.jpg" alt="Аватар" class="user-profile__pfp">
+                </div>
+                <div class="user-profile__bottom">
+                    <h2 class="user-profile__user-name">Анна Иванова</h2>
+                    <h3 class="user-profile__contact-email"><i class="bi bi-envelope-at"></i> <span>annaivanova@mail.ru</span></h3>
+                    <h3 class="user-profile__contact-phone"><i class="bi bi-telephone"></i><span>+7 (495) 000-00-00</span></h3>
+                    <p class="user-profile__user-bio">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere,
+                        veritatis? Modi excepturi adipisci dolor iste eaque nemo, a quam fuga aspernatur aliquid
+                        quisquam vero iusto quibusdam ipsum. Iste, deleniti voluptatem.</p>
+                </div>
+            </div>
+        </section>
+        <section class="todo-list" id="todo">
+            <div class="todo-list__wrapper">
+                <div class="todo-list__controls">
+                    <input type="text" placeholder="Введите задание" class="todo-list__input">
+                    <button class="todo-list__button">Добавить задание</button>
+                </div>
+                <ul class="todo-list__tasks"></ul>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
